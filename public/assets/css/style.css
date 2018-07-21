@@ -1272,7 +1272,9 @@ header {
 span.title,span.heading,span.req-title{
   padding-left: 5px;
 }
-
+.product-inner .about-advisor{
+  border-left: 1px solid #d8d8d8;
+}
 
 
 

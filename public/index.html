@@ -7,61 +7,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.bd7c01274664faa371f4.css"></head>
+  <script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="styles.8b432c19acb2b7209646.css"></head>
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.bb3a656b5cd91e3b8e03.js"></script></body>
-<script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="./assets/js/popper.min.js"></script>
-<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript">
-    	$('.notification-sec .notify-list').owlCarousel({
-		    loop:true,
-		    nav:true,
-		    navText: [
-				'<i class="fa fa-chevron-left"></i>',
-				'<i class="fa fa-chevron-right"></i>'
-			],
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        768:{
-		            items:2
-		        },
-		    }
-		});
-
-    	$('.my-product .watch-product-video, .mob-video-play').click(function() {
-    		var win_width = $(window).width();
-    		if($('.video-section').hasClass('open')) {
-    			$('.video-section').removeClass('open');
-    			$('.video-section').animate({height:0},100);
-    			$('.watch-product-video').css('background', '#fff');
-    		} else {
-    			$('.video-section').addClass('open');
-    			if(win_width > 767) {
-    				$('.video-section').animate({height:280},200);
-    				$('.watch-product-video').css('background', '#f5f5f5');
-    			} else {
-    				$('.video-section').animate({height:149},200);
-    				$('.watch-product-video').css('background', '#f5f5f5');
-    			}
-    		}
-
-    	});
-    	$('.about-advisor').click(function() {
-    		var win_width = $(window).width();
-    		if($('.about-advisor-sec').hasClass('open')) {
-				$('.about-advisor-sec').removeClass('open');
-    			$('.about-advisor-sec').animate({height:0},100);
-    			$('.about-advisor').css('background', '#fff');
-    		} else {
-    			$('.about-advisor-sec').addClass('open');
-    			$('.about-advisor-sec').animate({height:120},100);
-    			$('.about-advisor').css('background', '#f5f5f5');
-    		}
-    	});
-    </script>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.d521c6c1ed80ec84a0d0.js"></script></body>
 </html>
