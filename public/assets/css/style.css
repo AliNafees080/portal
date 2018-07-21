@@ -229,7 +229,8 @@ header {
         color: #676767;
         vertical-align: middle;
         display: inline-block;
-        margin-left: 5px; }
+        /*margin-left: 5px;*/
+         }
       .my-product .product-inner .head .lft-sec .mob-video-play {
         float: right;
         position: relative;
@@ -1270,11 +1271,37 @@ header {
   margin-right: 13px;
 }
 span.title,span.heading,span.req-title{
-  padding-left: 5px;
+  /*padding-left: 5px;*/
 }
 .product-inner .about-advisor{
   border-left: 1px solid #d8d8d8;
 }
+.fa-24{
+  font-size: 24px !important;
+  min-width: 24px;
+  min-height: 24px;
+}
+.mb5{
+  margin-bottom: -5px;
+}
+.cust-prod-style{
+    top: 3px;
+    position: absolute;
+}
+.color-lgrey{
+  color: #888896;
+}
+.download-btn-width,.download-btn-width-inner{
+  position: static !important;
+  width: 100%;
+}
+.img-icon-head{
+  width: 24px;
+  height: 24px;
+}
+
+
+
 
 
 
