@@ -1,5 +1,5 @@
 body {
-  background: url(../images/pattern.png);
+  /*background: url(../images/pattern.png);*/
   background-position: right;
   background-size: 100%;
   background-color: #f5f5f5; }
@@ -642,10 +642,10 @@ header {
         @media (max-width: 767px) {
           .benefit-sec .bene-inner .top-head .rt-sec ul li {
             width: 33.33%; } }
-        .benefit-sec .bene-inner .top-head .rt-sec ul li:first-child a {
+        /*.benefit-sec .bene-inner .top-head .rt-sec ul li:first-child a {
           background: #fff;
           border-left: 1px solid #e0e0e0;
-          color: #282828; }
+          color: #282828; }*/
         .benefit-sec .bene-inner .top-head .rt-sec ul li a {
           padding: 15px;
           display: block;
@@ -1285,7 +1285,7 @@ span.title,span.heading,span.req-title{
   margin-bottom: -5px;
 }
 .cust-prod-style{
-    top: 3px;
+    /*top: 3px;*/
     position: absolute;
 }
 .color-lgrey{
@@ -1296,13 +1296,83 @@ span.title,span.heading,span.req-title{
   width: 100%;
 }
 .img-icon-head{
-  width: 24px;
-  height: 24px;
+  width: 24px !important;
+  height: 24px !important;
 }
-
-
-
-
-
+.top-header{
+    height: 75px !important;
+}
+.no-border-padd{
+  border:none !important;
+  padding-right: 15px !important;
+}
+.col-md-12 .content-sec{
+  max-width: 100% !important;
+  width: auto !important;
+  float: left !important;
+}
+.col-md-12 .cstm-col{
+    /*float: left;*/
+    width: 20% !important;
+    padding-left: 20px;
+}
+.col-md-6 .cstm-col{
+    /*float: left;*/
+    width: 33% !important;
+    padding-left: 3%;
+}
+.active-ad-benefits{
+  background: #fff !important;
+}
+.inactive-ad-benefits{
+  background: #f7f7f5 !important;
+}
+@media (min-width: 990px) and (max-width: 1212px) {
+  .right-title.cust-font{
+      font-size: 11px !important;
+  }
+  .inner-sign{
+    width: 279px !important;
+  }
+}
+@media (min-width: 767px) and (max-width: 990px) {
+    .my-product .product-inner .head .rt-sec ul li:first-child a:hover,.my-product .product-inner .head .rt-sec ul li:first-child a {
+      background: none !important;
+    }
+    .my-product .product-inner .head .rt-sec ul li:last-child a:hover,.my-product .product-inner .head .rt-sec ul li:last-child a {
+      background: none !important;
+    }
+}
+.my-product .product-inner .head .rt-sec ul li a:hover{
+  /*color: blue !important;*/
+}
+.watch-product-video {
+  color: #f57b3a !important;
+}
+.about-advisor-sec.open {
+  height: auto !important;
+}
+.accpet-sign-inactive * {
+    box-shadow: none !important;
+    padding-top: 8px;
+    /*background: black;*/
+}
+.signature-sec .body-sec .accpet-sign-active .inner {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 15px;
+}
+.signature-sec .body-sec .left-col {
+     padding: 0px !important; 
+     text-align: center;
+     padding-left: 15px !important; 
+     padding-right: 15px !important; 
+}
+.pt15{
+  padding-top: 15px !important;
+}
+body *{
+  font-family: Roboto;
+}
 
 
